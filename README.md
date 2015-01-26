@@ -1,6 +1,9 @@
 # SimpleLRUCache
 Implements a Simple LRU Cache in Java
 
+About SimpleLRUCache
+========
+
 A simple implementation of Least Recently Used Cache. This current 
 implementation uses a queue and a map to store the keys and values 
 respectively.
@@ -13,3 +16,16 @@ The map stores the key and the reference of the value in the queue.
 This is used because we would prefer an O(1) removal of the item
 and not prefer a sequential find of the element from the start of the 
 queue and finally remove it. 
+
+API Reference
+========
+
+#### `SimpleLRUCache()`
+#### `SimpleLRUCache(initialSize)`
+#### `boolean addItem(K key, V value)`
+#### `V getItem(K key)`
+#### `Set<K> getKeySet()`
+#### `Set<V> getValues()`
+#### `void clearAll()`
+#### `int getSize()`
+#### `String toString()`
