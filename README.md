@@ -1,5 +1,5 @@
 # SimpleLRUCache
-Implements a Simple LRU Cache in Java
+Implements a Simple Least Recently Used Cache in Java
 
 About SimpleLRUCache
 ========
@@ -20,12 +20,12 @@ queue and finally remove it.
 API Reference
 ========
 
-#### `SimpleLRUCache()`
-#### `SimpleLRUCache(initialSize)`
-#### `boolean addItem(K key, V value)`
-#### `V getItem(K key)`
-#### `Set<K> getKeySet()`
-#### `Set<V> getValues()`
-#### `void clearAll()`
-#### `int getSize()`
-#### `String toString()`
+- `SimpleLRUCache()`
+- `SimpleLRUCache(initialSize)`
+- `boolean addItem(K key, V value)`
+- `V getItem(K key)`
+- `Set<K> getKeySet()`
+- `Set<V> getValues()`
+- `void clearAll()`
+- `int getSize()`
+- `String toString()`
